@@ -1,0 +1,7 @@
+<!ELEMENT root (people*)>
+<!ELEMENT people (name,sex,major,mail,tel)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>

@@ -1,0 +1,28 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="root">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="people" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="people">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="name"/>
+			<xsd:element ref="sex"/>
+			<xsd:element ref="major"/>
+			<xsd:element ref="mail"/>
+			<xsd:element ref="tel"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="name" type="xsd:string"/>
+<xsd:element name="sex" type="xsd:string"/>
+<xsd:element name="major" type="xsd:string"/>
+<xsd:element name="mail" type="xsd:string"/>
+<xsd:element name="tel" type="xsd:string"/>
+
+</xsd:schema>

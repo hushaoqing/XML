@@ -1,0 +1,28 @@
+root
+{	
+	display:block;
+	width:800px;
+	background-color:#00FFFF;}
+	
+people
+{
+	float:left;
+	display:list-item;
+	list-style-type:decimal;
+	width:200px;
+	margin-left:25px;
+	margin-bottom:20px;
+	font-size:12pt;
+	background-color:#9966CC;}
+	
+name,sex,major,mail,tel
+{
+	display:list-item;
+	list-style-type:disc;
+	margin-left:35px;
+	margin-top:10px;
+	width:150px;
+	background-color:#00FFCC;
+	font-size:10pt;
+	color:black;
+	border-width:1px;}

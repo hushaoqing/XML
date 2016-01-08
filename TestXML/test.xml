@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="mycss.css" type="text/css" ?>
+<!DOCTYPE root SYSTEM "test.dtd">
+<root>
+<people>
+<name>张三</name>
+<sex>男</sex>
+<major>CS</major>
+<mail>123@163.com</mail>
+<tel>18139261111</tel>
+</people>
+<people>
+<name>李四</name>
+<sex>女</sex>
+<major>EE</major>
+<mail>456@gmail.com</mail>
+<tel>18139261112</tel>
+</people>
+<people>
+<name>王五</name>
+<sex>男</sex>
+<major>法学</major>
+<mail>wangwu@qq.com</mail>
+<tel>18139261113</tel>
+</people>
+
+</root>
